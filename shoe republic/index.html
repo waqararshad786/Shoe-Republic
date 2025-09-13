@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shoes Store</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <style>
+    #logo {
+      border-radius: 50%;
+      width: 50px;
+      height: 50px;
+      object-fit: cover;
+      margin-right: 10px;
+    }
+    .navbar-brand {
+      margin: auto;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-light sticky-top" style="background-color: pink;">
+  <div class="container">
+    <a class="navbar-brand d-flex align-items-center" href="#">
+      <img src="logo.jpg" alt="Logo" id="logo" />
+      <span class="ms-2 fw-bold">SHOES</span>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+      data-bs-target="#navbarSupportedContent">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+      <ul class="navbar-nav">
+        <li><a class="nav-link btn btn-outline-info m-1 active" href="index.html">Home</a></li>
+        <li><a class="nav-link btn btn-outline-success m-1" href="sales.html">Sales</a></li>
+        <li><a class="nav-link btn btn-outline-danger m-1" href="contact.html">Contact</a></li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle btn btn-outline-info m-1" href="#" data-bs-toggle="dropdown">Brands</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="bata.html">Bata</a></li>
+            <li><a class="dropdown-item" href="stylo.html">Stylo</a></li>
+            <li><a class="dropdown-item" href="borjan.html">Borjan</a></li>
+            <li><a class="dropdown-item" href="adidas.html">Adidas</a></li>
+            <li><a class="dropdown-item" href="nike.html">Nike</a></li>
+          </ul>
+        </li>
+        <li><a class="nav-link btn btn-outline-secondary m-1" href="men.html">Men</a></li>
+        <li><a class="nav-link btn btn-outline-warning m-1" href="women.html">Women</a></li>
+        <li><a class="nav-link btn btn-outline-danger m-1" href="child.html">Child</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Home Page Content -->
+<div class="container mt-5">
+  <h1 class="text-center mb-4">Welcome to the Shoes Store</h1>
+
+  <div class="row g-4">
+    <!-- Product 1 -->
+    <div class="col-sm-6 col-md-4 col-lg-3">
+      <div class="card h-100">
+        <img src="15m.jpg" class="card-img-top" alt="Adidas Shoe">
+        <div class="card-body">
+          <h5 class="card-title">Adidas Runner</h5>
+          <p class="card-text">Comfortable and stylish running shoes for all-day wear.</p>
+          <a href="adidas.html" class="btn btn-primary">View More</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Product 2 -->
+    <div class="col-sm-6 col-md-4 col-lg-3">
+      <div class="card h-100">
+        <img src="6m.jpg" class="card-img-top" alt="Nike Shoe">
+        <div class="card-body">
+          <h5 class="card-title">Nike Air</h5>
+          <p class="card-text">High-performance shoes with cushioning support.</p>
+          <a href="nike.html" class="btn btn-primary">View More</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Product 3 -->
+    <div class="col-sm-6 col-md-4 col-lg-3">
+      <div class="card h-100">
+        <img src="9h.jpg" class="card-img-top" alt="Bata Shoe">
+        <div class="card-body">
+          <h5 class="card-title">Bata Comfort</h5>
+          <p class="card-text">Affordable, durable, and great for everyday use.</p>
+          <a href="bata.html" class="btn btn-primary">View More</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Product 4 -->
+    <div class="col-sm-6 col-md-4 col-lg-3">
+      <div class="card h-100">
+        <img src="6w.jpg" class="card-img-top" alt="Stylo Shoe">
+        <div class="card-body">
+          <h5 class="card-title">Stylo Heels</h5>
+          <p class="card-text">Elegant footwear for women with modern design.</p>
+          <a href="stylo.html" class="btn btn-primary">View More</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="text-center mt-5 py-3 bg-light">
+  <p class="mb-0">© 2025 Shoes Store. All rights reserved.</p>
+</footer>
+
+<!-- Scripts -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
